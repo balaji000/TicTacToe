@@ -11,7 +11,7 @@ public static int[][] ticbox;
 		for(int i=0;i<3;i++)
 		{
 			if(tic[i][0]==tic[i][1]&&tic[i][1]==tic[i][2]&&tic[i][0]==1)
-				return 1;
+			return 1;
 			else return 2;
 			
 		}
